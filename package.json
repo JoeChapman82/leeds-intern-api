@@ -1,0 +1,21 @@
+{
+  "name": "leeds-intern-api",
+  "version": "1.0.0",
+  "description": "api for intern booker service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Chapman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "mongoose": "^4.11.7",
+    "serve-favicon": "^2.4.3"
+  }
+}
