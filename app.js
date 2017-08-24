@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 const api = express.Router();
 const path = require('path');
 const favicon = require('serve-favicon');
