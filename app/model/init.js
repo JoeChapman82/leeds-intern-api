@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
-const db = process.env.DB;
+const db = process.env.MONGODB_URI;
 
 module.exports = () => {
 

@@ -5,7 +5,3 @@ node_modules/*
 npm-debug.log
 .nyc_output
 .env
-postcode-cert.pem
-postcode-key.pem
-postcode-csr.pem
-postcode.pfx
