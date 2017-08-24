@@ -19,6 +19,7 @@ dbConnect();
 
 require(path.join(__dirname, 'app/routes/routes'))(api);
 
+app.get('/', (req, res) => res.send('running'));
 app.get('*', (req, res) => res.status(404).send('Not found'));
 app.all('*', (req, res) => res.status(405).send('Method not allowed'));
 
